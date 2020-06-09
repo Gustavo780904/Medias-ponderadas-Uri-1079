@@ -9,11 +9,13 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		int N, i;
+		int N, i = 0;
 		double media, A, B, C;
 		
 		N = sc.nextInt();
-		
+		for (media = 0; i <= N; i ++) {
+			
+		}
 		
 		
 		sc.close();
