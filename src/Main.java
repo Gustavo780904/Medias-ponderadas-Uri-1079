@@ -1,4 +1,3 @@
-package mediasPonderadasUri1079;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -13,8 +12,12 @@ public class Main {
 		double media, A, B, C;
 		
 		N = sc.nextInt();
-		for (media = 0; i <= N; i ++) {
-			
+		for (media = 0; i < N; i ++) {
+			A = sc.nextDouble();
+			B = sc.nextDouble();
+			C = sc.nextDouble();
+			media = (A * 2 + B * 3 + C * 5)/10;
+			System.out.printf("%.1f%n", media);
 		}
 		
 		
